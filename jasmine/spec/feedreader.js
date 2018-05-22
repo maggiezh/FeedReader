@@ -96,7 +96,7 @@ $(function() {
 
         it('at least a single .entry element within the .feed container', function () {
             // use the code example @ https://discussions.udacity.com/t/unexpected-trouble-with-initial-entries-test/195850
-            var entrylength = $('.entry').length;
+            var entrylength = $('.feed .entry').length;
             expect(entrylength).toBeGreaterThan(0);
         });
      });
